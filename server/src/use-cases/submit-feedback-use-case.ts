@@ -22,8 +22,7 @@ export class SubmitFeedbackUseCase {
     if (!comment) {
       throw new Error("Comment is required.");
     }
-
-    if (screenshot && !screenshot.startsWith("data:image/png:base64")) {
+    if (screenshot && !screenshot.startsWith("data:image/png;base64")) {
       throw new Error("Invalid screenshot format.");
     }
 
@@ -39,6 +38,7 @@ export class SubmitFeedbackUseCase {
         `<div style="font-family: sans-serif; font-size: 16px; color: #111;">`,
         `<p>Tipo do Feedback: ${type}</p>`,
         `<p>Comentário: ${comment}</p>`,
+        screenshot ? `<img src="${screenshot}"/>` : ``,
         `</div>`,
       ].join("\n"),
     });
