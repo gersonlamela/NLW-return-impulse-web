@@ -80,7 +80,7 @@
 
 <a  href="#memo-licença">Licença</a> &#xa0; | &#xa0;
 
-<a  href="https://github.com/tfronn"  target="_blank">Autor</a>
+<a  href="https://github.com/gersonlamela"  target="_blank">Autor</a>
 
 </p>
 
