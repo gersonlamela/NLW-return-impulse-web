@@ -128,8 +128,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React](https://pt-br.reactjs.org/)
 
-- [React Native](https://reactnative.dev/)
-
 - [TypeScript](https://www.typescriptlang.org/)
 
 - [TailwindCSS](https://tailwindcss.com/)
